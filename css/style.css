@@ -33,6 +33,11 @@ h1 {
   padding: 18px;
 }
 
+.linha-1,
+.linha-2 {
+  height: 30px;
+  padding: 20px;
+}
 @media screen and (max-width: 550px) {
   #snake {
     width: 60%;
