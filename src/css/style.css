@@ -17,8 +17,8 @@ h1 {
 }
 
 #snake {
-  width: 70%;
   border: solid 1px red;
+  width: 30%;
 }
 
 .direcionais {
@@ -31,4 +31,15 @@ h1 {
   margin: 5px;
   border: solid 1px red;
   padding: 18px;
+}
+
+@media screen and (max-width: 550px) {
+  #snake {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #snake {
+    width: 40%;
+  }
 }
