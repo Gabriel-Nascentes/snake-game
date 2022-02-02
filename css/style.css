@@ -26,6 +26,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 .direcionais i {
   margin: 5px;

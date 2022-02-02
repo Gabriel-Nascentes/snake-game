@@ -57,10 +57,10 @@ function gameOver() {
 document.addEventListener("click", gameToutch);
 function gameToutch(e) {
   let el = e.target;
-  if (el.matches(".up")) direction = "up";
-  if (el.matches(".down")) direction = "down";
-  if (el.matches(".left")) direction = "left";
-  if (el.matches(".right")) direction = "right";
+  if (el.matches(".up") && direction != "down") direction = "up";
+  if (el.matches(".down") && direction != "up") direction = "down";
+  if (el.matches(".left") && direction != "right") direction = "left";
+  if (el.matches(".right") && direction != "left") direction = "right";
 }
 
 function iniciarJogo() {
