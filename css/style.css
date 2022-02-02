@@ -36,8 +36,11 @@ h1 {
 
 .linha-1,
 .linha-2 {
-  height: 30px;
-  padding: 20px;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width: 550px) {
   #snake {
